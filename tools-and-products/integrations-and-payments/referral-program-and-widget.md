@@ -6,14 +6,14 @@ Users must pay an admin fee in Equilibrium’s NUT in order to close an EOSDT po
 
 Those who want to participate need to register on EOSDT’s smart contracts in order to make sure they can get paid. This only requires a separate NUT transfer to our smart contracts, granting partners a referral ID.
 
-_\*\*_There are new settings related to the referral program:
+There are new settings related to the referral program:
 
 | **parameter** | **type** | **description** |
 | :--- | :--- | :--- |
-| referral\_min\_stake | asset _\*\*_ | The minimum NUT stake required to register as a referral. This is 2 NUT by default. |
+| referral\_min\_stake | asset  | The minimum NUT stake required to register as a referral. This is 2 NUT by default. |
 | referral\_ratio | float | The ratio of admin fees that go to referrals as a reward. By default this is 50%. |
 
-**\*\*New table** ctrreferrals\*\*:
+New table **ctrreferrals**:
 
 This table lists all the referrals with their respective staked amounts of NUT.
 
@@ -31,7 +31,7 @@ This table connects positions with referrals so the system knows when and where 
 | referral\_id | int | referral id |
 | position\_id | int | Id of the related position |
 
-_\*\*_New actions related to referral program:
+New actions related to referral program:
 
 {% tabs %}
 {% tab title="referraladd" %}
@@ -48,7 +48,7 @@ memo: referral
 
 When input &lt; referral\_min\_stake
 
-_\*\*_When missing the referral’s signature
+When missing the referral’s signature
 
 **Example**
 
