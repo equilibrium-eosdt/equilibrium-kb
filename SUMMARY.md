@@ -22,8 +22,8 @@
 
 ## Research
 
-* [Research](research-1/README.md)
-  * [Quantitative Introduction to the Equilibrium \(Smart\) Contract](research-1/quantitative-intro.md)
-  * [The Bancor Protocol: the Tip of the Iceberg](research-1/the-bancor-protocol-the-tip-of-the-iceberg.md)
-  * [Equilibrium Infrastructure: Collateral Adjustment Mechanisms](research-1/equilibrium-infrastructure-collateral-adjustment-mechanisms.md)
+* [Research](research/research/README.md)
+  * [Quantitative Introduction to the Equilibrium \(Smart\) Contract](research/research/quantitative-intro.md)
+  * [The Bancor Protocol: the Tip of the Iceberg](research/research/the-bancor-protocol-the-tip-of-the-iceberg.md)
+  * [Equilibrium Infrastructure: Collateral Adjustment Mechanisms](research/research/equilibrium-infrastructure-collateral-adjustment-mechanisms.md)
 

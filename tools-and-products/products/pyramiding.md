@@ -79,17 +79,8 @@ All the above logic is implemented within a new contract called eosdtlevrage.
           <br />safety_margin(SM)</td>
         <td style="text-align:left">
           <p>When missing signature of caller.</p>
-          <p>
-            <br />
-          </p>
           <p>When L 1/(1- 1/(critical_ltv + safety_margin).</p>
-          <p>
-            <br />
-          </p>
           <p>When SM= critical_ltv.</p>
-          <p>
-            <br />
-          </p>
           <p>When there is not enough liquidity on DEX on any of the loop iterations.</p>
         </td>
         <td style="text-align:left"><code>cleos push action eosdtcntract margincall &apos;{&quot;leverage&quot;: &quot;2&quot;,&#x201D;safety_margin&#x201D;,&#x201D;0.3&#x201D;}&apos; -p user</code>

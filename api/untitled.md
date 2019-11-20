@@ -2,7 +2,7 @@
 
 A JavaScript library to execute EOSDT contracts methods.
 
-### Usage
+## Usage
 
 Install the module using NPM:
 
@@ -25,13 +25,13 @@ const liquidator = connector.getLiquidator()
 const balances = connector.getBalances()
 ```
 
-### Modules
+## Modules
 
-#### Connector
+### Connector
 
 Creates a connector object, used to initiate functional modules and invoke their methods.
 
-#### Positions
+### Positions
 
 Module to manage EOSDT positions. Methods:
 
@@ -60,7 +60,7 @@ Module to manage EOSDT positions. Methods:
 * `getPositionReferralsTable` - returns an array of positions ids and those positions referrals.
 * `getAllReferralPositionsIds` - returns an array of positions with given referral id.
 
-#### Governance
+### Governance
 
 Governance methods help manage the system: create proposals to change system parameters, vote on them and stake NUT tokens for voting. Methods:
 
@@ -82,7 +82,7 @@ Governance methods help manage the system: create proposals to change system par
 * `getProxyInfo` - returns voter info for `eosdtbpproxy`.
 * `getSettings` - returns governance contract settings.
 
-#### Bp manager
+### Bp manager
 
 Governance account methods for block producers to manage their voting positions: register, change reward amount, deposit EOS, unregister.
 
@@ -93,7 +93,7 @@ Governance account methods for block producers to manage their voting positions:
 * `unRegisterBlockProducer` - make block producer position inactive.
 * `depositEos` - deposit EOS to block producer position.
 
-#### Liquidator
+### Liquidator
 
 Methods to get Liquidator contract parameters and exchange EOS and EOSDT in case of global shutdown.
 
@@ -106,7 +106,7 @@ Methods to get Liquidator contract parameters and exchange EOS and EOSDT in case
 * `getEosBalance` - returns amount of EOS on liquidator contract balance.
 * `getParameters` - returns all liquidator contract parameters.
 
-#### Balances
+### Balances
 
 Module to get account's balances of EOSDT, EOS and NUT. Methods:
 
@@ -114,11 +114,11 @@ Module to get account's balances of EOSDT, EOS and NUT. Methods:
 * `getEosdt` - returns EOSDT balance of account
 * `getEos` - returns EOS balance of account
 
-### Examples
+## Examples
 
 You can find working example scripts in module directory `examples`.
 
-#### Connecting to blockchain
+### Connecting to blockchain
 
 This code block is required for any other example to work.
 
@@ -147,7 +147,7 @@ const liquidator = connector.getLiquidator()
 const balances = connector.getBalances()
 ```
 
-#### Position operations
+### Position operations
 
 Creating position, adding collateral, issuing addintional debt then returning it, returning collateral from postion and closing it.
 
@@ -199,7 +199,7 @@ console.log("Position deleted, excess EOS returned to user, position must now be
   updatedPosition)
 ```
 
-#### Proposals management
+### Proposals management
 
 Creating, expiring and applying a proposal.
 
@@ -223,7 +223,7 @@ console.log(`Proposal expired: \n`, await governance.getProposals())
 await governance.applyChanges("test proposal", accountName)
 ```
 
-#### Voting
+### Voting
 
 Staking NUT tokens to vote for and against proposals.
 
@@ -246,7 +246,7 @@ console.log(`Voted cancelled, all votes: \n`, await governance.getVotes())
 await governance.unstake(2, accountName)
 ```
 
-#### Balances operations
+### Balances operations
 
 Gettings balances of EOS, EOSDT or NUT
 

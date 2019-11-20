@@ -6,5 +6,3 @@
 
 {% page-ref page="equilibrium-infrastructure-collateral-adjustment-mechanisms.md" %}
 
-
-
