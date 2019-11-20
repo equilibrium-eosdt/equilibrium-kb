@@ -10,7 +10,7 @@ The Bancor protocol is a simple and elegant solution that lets tokens be convert
 
 Extensive research has already formalized and simulated Keynes’s model. Looking at [Valdecantos and Zezza](http://models.sfc-models.net/vz2015/models.pdf)’s work, we can immediately weigh the potential complexity of modelling a real-world economy with four “countries:” the United States, Europe, China, and the rest of the world.
 
-In the real-world economy, a country’s inhabitants work, produce, export, import, and consume. Agents have risks and preferences. Naturally, prices will reflect these risks and preferences. By contrast, the price of[ a Bancor Relay](https://blog.bancor.network/how-bancor-relays-work-c712a374374f) _\*\*_is completely determined by the amount of available tokens held in reserve \(eg. the Bancor “connectors”\). The concept of risk is missing, and with good reason.
+In the real-world economy, a country’s inhabitants work, produce, export, import, and consume. Agents have risks and preferences. Naturally, prices will reflect these risks and preferences. By contrast, the price of[ a Bancor Relay](https://blog.bancor.network/how-bancor-relays-work-c712a374374f) is completely determined by the amount of available tokens held in reserve \(eg. the Bancor “connectors”\). The concept of risk is missing, and with good reason.
 
 The Bancor protocol is a fundamental concept that should be considered the backbone of a central bank. And like a central bank, the Bancor protocol structure is not profit-oriented.
 
@@ -45,7 +45,7 @@ Given the sole dependency of the Bancor relay price on the connectors’ quantit
 
 The Dixit-Stiglitz model follows this simple hypothesis: “a consumer who is indifferent between the quantities \(1,0\) and \(0,1\) of two commodities prefers to hold a mix.” In other words, agents love variety.
 
-In his [40-year review](https://www8.gsb.columbia.edu/faculty/jstiglitz/sites/jstiglitz/files/Monopolistic%20Competition%2C%20he%20Dixit-Stiglitz%20Model....pdf) since the Dixit-Stiglitz model, Stiglitz states: _\*\*_“If the returns to shares of firms” \(aka tokens\) “are not perfectly correlated, then each is an imperfect substitute for the other. Individuals will want to hold all shares in their portfolio — just as in the Dixit–Stiglitz model, individuals want to buy all commodities” \(aka tokens\) ”that are produced.”
+In his [40-year review](https://www8.gsb.columbia.edu/faculty/jstiglitz/sites/jstiglitz/files/Monopolistic%20Competition%2C%20he%20Dixit-Stiglitz%20Model....pdf) since the Dixit-Stiglitz model, Stiglitz states: “If the returns to shares of firms” \(aka tokens\) “are not perfectly correlated, then each is an imperfect substitute for the other. Individuals will want to hold all shares in their portfolio — just as in the Dixit–Stiglitz model, individuals want to buy all commodities” \(aka tokens\) ”that are produced.”
 
 ![](https://blog.eosdt.com/content/images/2019/07/1graph.png)
 
