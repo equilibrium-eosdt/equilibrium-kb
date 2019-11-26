@@ -76,7 +76,7 @@ Here’s the table that calculates the break-even percentage drops for EOS price
 Current parameter settings are marked in green. “Prohibitive” settings are marked in red.  
 The system allows for ~10% drop before we start tapping into everyone’s collateral. Given EOS’s price volatility of around 8% a day, a drop of this magnitude is expected to occur in at least 4 hours in more than 99% of cases. Given that the EOS rate is updated every minute by an oracle contract and we’re expecting to increase this to every 15 seconds, we’ll eventually have a high margin of safety here.
 
-![](../.gitbook/assets/image-9.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ## **REX profit**
 
