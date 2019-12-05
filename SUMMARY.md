@@ -15,10 +15,11 @@
 * [Integrations and Payments](tools-and-products/integrations-and-payments/README.md)
   * [Referral program and widget](tools-and-products/integrations-and-payments/referral-program-and-widget.md)
 
-## API
+## API and internal logic <a id="api"></a>
 
 * [EOSDT JS](api/untitled.md)
 * [Fees and flows](api/fees-and-flows.md)
+* [Test framework](api/test-framework.md)
 
 ## Research
 
