@@ -3,7 +3,7 @@
 The Equilibrium framework works with Oraclize \(now called Provable\), Delphi Oracle, and Liquid Apps oracles to obtain timely market data on-chain. The system uses three different oracles for redundancy and calculates median rate based on the data provided by these oracles. The median value is a final reference price used in all on-chain calculations.
 
 {% hint style="info" %}
-Any third party account or smart contract may subscribe to the price feed to receive timely updates required for business logic. It is as simple as staking NUT tokens and implementing public method ratesupdate\(\). 
+Any third party account or smart contract may subscribe to the price feed to receive timely updates required for business logic. It is as simple as staking NUT tokens and implementing public method ratesupdate\(\).
 {% endhint %}
 
 Getting rates from Provable and Delphi Oracle works in a similar fashion: each time the system calls its reinit\(\) function \(basically on any user action\), the position contract checks to see if there are any active queries needing collateral and utility token rates, and the rates contract calls for an update of quotes if there are.The contract will check the age of any active query. If it’s more than one minute old, the query gets timestamped and its hash is set to zero. A new query is made by calling the refreshutil\(\) function.
